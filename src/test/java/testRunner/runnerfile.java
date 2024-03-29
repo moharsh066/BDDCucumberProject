@@ -5,9 +5,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "C:\\Users\\arshe\\eclipse-workspace\\ui.automation.cucumber2\\src\\test\\java\\feature\\Login.feature",
+		features = "C:\\Users\\arshe\\eclipse-workspace\\ui.automation.cucumber2\\src\\test\\java\\feature\\Register.feature",
 		glue = {"stepDefinitions","hooks"},
-       	 tags = "@SmokeTest1",
+       	// tags = "@SmokeTest1",
 		publish=true,
 		monochrome = true,
 		plugin={"pretty","html:target/CucumberReports/CucumberReport.html",

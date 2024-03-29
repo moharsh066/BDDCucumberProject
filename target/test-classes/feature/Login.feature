@@ -8,7 +8,7 @@ And User enters valid password "12345" into password field
 And User clicks on Login button
 Then User should get successfully logged in
 
-@ScenarioOutline2
+@ScenarioOutline
 Scenario Outline: Login with valid credentials
 Given User navigates to login page
 When User enters valid email address "<username>" into email field
