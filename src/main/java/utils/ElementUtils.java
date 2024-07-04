@@ -58,7 +58,7 @@ public class ElementUtils {
 		webElement.sendKeys(textToBeTyped);
 	}
 	
-	//FOR textfield na ayaw gumana yung typeTextIntoElement
+	
 	public void clickAndTypeTextIntoElement(WebElement element, String textToBeTyped, long durationInSeconds) {
 		WebElement webElement = waitForElement(element, durationInSeconds);
 		webElement.click();
@@ -71,7 +71,7 @@ public class ElementUtils {
 		select.selectByVisibleText(dropDownOption);
 	}
 	
-	//FOR DROPDOWN na hindi gumagana yung select function. Need i manual Click and Click Down Arrow
+	//FOR DROPDOWN select function. Need i manual Click and Click Down Arrow
 	public void clickOnElementAndPressDownAction(WebElement element, long durationInSeconds) {
 		WebElement webElement = waitForElement(element, durationInSeconds);
 		webElement.click();
