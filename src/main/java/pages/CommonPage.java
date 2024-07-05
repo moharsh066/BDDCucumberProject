@@ -30,7 +30,6 @@ public class CommonPage {
 	}
 	
 	//Call this clickDynamicCurrentCalendarDay on Page class. 
-	//Here's a sample code below kung pano tawagin yung method:
 //	public void ClickDayInCalendar() {
 //		ElementUtils.clickOnElement(clickCurrentCalendarDay(), explicitWaitTime);
 //	}
@@ -43,7 +42,6 @@ public class CommonPage {
 	}
 	
 	//Call this clickDynamicData on Page class. 
-	//Here's a sample code below kung pano tawagin yung method:
 //	public void ClickData(String text) {
 //		ElementUtils.clickOnElement(clickDynamicData(text), explicitWaitTime);
 //	}

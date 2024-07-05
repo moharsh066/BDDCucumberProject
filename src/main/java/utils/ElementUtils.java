@@ -34,12 +34,9 @@ public class ElementUtils {
 		webElement.click();
 	}
 	
-//	Ginagamit to if may pare-parehong element tapos gusto mo lang i-click yung specific TEXT. Usually sa headers.
-//	Pag gagamitin to. Dapat pag nag declare ng FindBy sa Page Class, dapat naka List<WebElement>.
-//	Example ng pag declare ng Find By:
+	
 //	FindBy(css = "span.rtsTxt")
 //	public List<WebElement> headerList 
-//	Example sa pag create naman ng Method:
 //	public void clickHeader(String text) {
 //		elementUtils.clickOnText(headerList, text, explicitWaitTime);
 //	}
