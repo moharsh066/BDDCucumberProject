@@ -18,8 +18,7 @@ import utils.ElementUtils;
 
 public class Login_stepDef {
 	
-	public static WebDriver driver;
-	
+     	public static WebDriver driver;
 		private CommonUtils commonUtils; // for waits
 		private CommonPage commonPage;
 		private LoginPage login_Page;
