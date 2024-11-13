@@ -39,7 +39,7 @@
 <a href="#"><span class="badge badge-primary">ExtentReports - Automation</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sep 12, 2024 11:23:36 am</span></a>
+<a href="#"><span class="badge badge-primary">Nov 13, 2024 07:16:47 pm</span></a>
 </li>
 </ul>
 </div>
@@ -56,11 +56,6 @@
 <span class="ico"><i class="fa fa-list"></i></span>
 </a>
 </li>
-<li class="nav-item dropdown" onclick="toggleView('category-view')">
-<a id="nav-category" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-tag"></i></span>
-</a>
-</li>
 </ul>
 </div>
 </div>      <div class="vcontainer">
@@ -70,13 +65,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sep 12, 2024 11:23:36 am</h3>
+<h3>Nov 13, 2024 07:16:47 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sep 12, 2024 11:23:48 am</h3>
+<h3>Nov 13, 2024 07:17:59 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -166,35 +161,10 @@
 </div></div>
 <script>
 var timeline = {
-"Search functionality":11.746
+"Webtable Testing":70.649
 };
 </script>
 <div class="row">
-<div class="col-lg-6 col-md-12 category-container">
-<div class="card">
-<div class="card-header"><p>Tags</p></div>
-<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
-<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
-<tr>
-<td>@searchScenari03</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@RegressionTest</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-</tbody>
-</table></div>
-</div>
-</div>
 </div>
 </div>
 <script>
@@ -233,12 +203,6 @@ eventsCount: 5,
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
 </li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
-<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@searchScenari03</a><a class="dropdown-item" href="#">@RegressionTest</a>
-</ul>
-</li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
@@ -247,9 +211,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Search functionality</p>
+            <p class="name">Webtable Testing</p>
             <p class="text-sm">
-              <span>11:23:36 am</span> / <span>00:00:11:746</span>
+              <span>7:16:48 pm</span> / <span>00:01:10:649</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -257,10 +221,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Search functionality</h5>
-<span class='badge badge-success'>09.12.2024 11:23:36 am</span>
-<span class='badge badge-danger'>09.12.2024 11:23:48 am</span>
-<span class='badge badge-default'>00:00:11:746</span>
+<h5 class="test-status text-pass">Webtable Testing</h5>
+<span class='badge badge-success'>11.13.2024 7:16:48 pm</span>
+<span class='badge badge-danger'>11.13.2024 7:17:59 pm</span>
+<span class='badge badge-default'>00:01:10:649</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -272,23 +236,23 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User searches without any product</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Mark Raj as present</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="stepDefinitions.Search_stepDef.user_dont_enter_any_product_name_into_search_box_field(java.lang.String)">
-                <span>When User dont enter any product name "" into Search box field</span>
+              <div class="step pass-bg" title="stepDefinitions.WebTable_stepDef.user_navigates_to_webtable_page()">
+                <span>Given User navigates to webtable page</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.Search_stepDef.user_clicks_on_search_button()">
-                <span>And User clicks on Search button</span>
+              <div class="step pass-bg" title="stepDefinitions.WebTable_stepDef.user_search_for_raj_in_lastname_column()">
+                <span>When User search for Raj in Lastname column</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.Search_stepDef.user_should_get_a_message_about_no_product_matching()">
-                <span>Then User should get a message about no product matching</span>
+              <div class="step pass-bg" title="stepDefinitions.WebTable_stepDef.user_mark_as_present()">
+                <span>Then User mark as present</span>
       <div>
       </div>
               </div>
@@ -307,95 +271,7 @@ eventsCount: 5,
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view category-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@searchScenari03</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@searchScenari03</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:23:36 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>User searches without any product</a>
-<div class="">
-<span class="badge badge-default">Search functionality.User searches without any product</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@RegressionTest</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@RegressionTest</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:23:36 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>User searches without any product</a>
-<div class="">
-<span class="badge badge-default">Search functionality.User searches without any product</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div>        </div>
+        </div>
       </div>
     </div>
   </div>

@@ -98,7 +98,7 @@ public class ElementUtils {
 	
 	public void javaScriptScroll() throws Exception {
 		JavascriptExecutor jse = ((JavascriptExecutor) driver);
-		jse.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		jse.executeScript("window.scrollBy(0, 5000)");
 		Thread.sleep(2000);
 	}
 

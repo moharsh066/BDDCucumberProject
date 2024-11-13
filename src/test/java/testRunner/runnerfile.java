@@ -5,9 +5,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "C:\\Users\\arshe\\eclipse-workspace\\ui.automation.cucumber2\\src\\test\\java\\feature\\Search.feature",
+		features = "C:\\Users\\arshe\\eclipse-workspace\\ui.automation.cucumber2\\src\\test\\java\\feature\\Webtable.feature",
 		glue = {"stepDefinitions","hooks"},
-       	 //tags = "@SmokeTest1",
+       	 //tags = "@SmokeTest",
 		// tags = "@searchScenari03",
 		publish=true,
 		monochrome = true,
